@@ -65,7 +65,7 @@ if (isset($_POST['login_user'])) {
  <h2 style="color:white; text-align:center;"> Access Only To Admin</h2>
  <hr>
 
-<form class="form " action="home.php" method="post">
+<form class="form " action="add_gym.php" method="post">
           <input type="text" class="form-control mb-2 mr-sm-2" name="username" placeholder="USERNAME" required> <br/>
           <input type="password" class="form-control mb-2 mr-sm-2" name="pwd" placeholder="PASSWORD" required> <br/>
           <button type="submit" class="btn btn-outline-light mb-2" name="login_user">Login</button>
